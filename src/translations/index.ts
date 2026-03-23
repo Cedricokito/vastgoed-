@@ -366,8 +366,8 @@ export const translations = {
       getStarted: 'Commencer',
     },
     hero: {
-      title1: 'INVESTIR',
-      title2: 'EN VEFA',
+      title1: 'OFF-PLAN',
+      title2: 'INVESTIR',
       subtitle: '& POTENTIEL DE PROFIT MAXIMAL',
       description: 'Investissement immobilier stratégique à Dubaï, Miami et Costa del Sol',
       exploreBtn: 'Découvrir les Opportunités',
