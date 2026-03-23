@@ -53,7 +53,7 @@ export default function Hero() {
         style={{ willChange: 'transform' }}
       >
         <img 
-          src="images/hero-bg.jpg" 
+          src={`${import.meta.env.BASE_URL}images/hero-bg.jpg}`} 
           alt="Luxury Architecture"
           className={`w-full h-full object-cover transition-all duration-1000 ${
             isLoaded ? 'scale-100 blur-0' : 'scale-110 blur-sm'
@@ -79,7 +79,7 @@ export default function Hero() {
                 <div className="relative w-72 h-72 sm:w-80 sm:h-80 lg:w-96 lg:h-96">
                   <div className="absolute inset-0 bg-gold/50 rounded-full blur-3xl scale-150" />
                   <img 
-                    src="images/whitestar-logo-enhanced.png" 
+                    src={`${import.meta.env.BASE_URL}images/whitestar-logo-enhanced.png}`} 
                     alt="Whitestar Capital"
                     className="relative z-10 w-full h-full object-contain drop-shadow-[0_0_50px_rgba(212,175,55,0.9)]"
                   />

@@ -45,7 +45,7 @@ export default function CTA() {
       {/* Background Image */}
       <div className="absolute inset-0">
         <img 
-          src="images/cta-bg.jpg" 
+          src={`${import.meta.env.BASE_URL}images/cta-bg.jpg}`} 
           alt="Luxury Building"
           className="w-full h-full object-cover"
         />
@@ -65,7 +65,7 @@ export default function CTA() {
             <div className="relative w-64 h-64 sm:w-72 sm:h-72 lg:w-80 lg:h-80">
               <div className="absolute inset-0 bg-gold/50 rounded-full blur-3xl scale-150" />
               <img 
-                src="images/whitestar-logo-enhanced.png" 
+                src={`${import.meta.env.BASE_URL}images/whitestar-logo-enhanced.png}`} 
                 alt="Whitestar Capital"
                 className="relative z-10 w-full h-full object-contain drop-shadow-[0_0_50px_rgba(212,175,55,0.9)]"
               />
