@@ -36,12 +36,12 @@ const locationData = [
 ];
 
 const locationImages: Record<string, string> = {
-  dubai: '/images/dubai-location.jpg',
-  miami: '/images/miami-location.jpg',
-  costadelsol: '/images/costadelsol-location.jpg',
-  turkey: '/images/turkey-location.jpg',
-  uk: '/images/uk-location.jpg',
-  oman: '/images/oman-location.jpg',
+  dubai: 'images/dubai-location.jpg',
+  miami: 'images/miami-location.jpg',
+  costadelsol: 'images/costadelsol-location.jpg',
+  turkey: 'images/turkey-location.jpg',
+  uk: 'images/uk-location.jpg',
+  oman: 'images/oman-location.jpg',
 };
 
 export default function Locations() {

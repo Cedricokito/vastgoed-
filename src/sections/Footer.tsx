@@ -44,7 +44,7 @@ export default function Footer() {
       {/* Background Watermark */}
       <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
         <img 
-          src="/images/whitestar-logo-enhanced.png" 
+          src="images/whitestar-logo-enhanced.png" 
           alt=""
           className="w-[500px] h-[500px] opacity-[0.08]"
         />
@@ -60,7 +60,7 @@ export default function Footer() {
                 <div className="relative w-56 h-56 sm:w-64 sm:h-64">
                   <div className="absolute inset-0 bg-gold/50 rounded-full blur-3xl scale-150" />
                   <img 
-                    src="/images/whitestar-logo-enhanced.png" 
+                    src="images/whitestar-logo-enhanced.png" 
                     alt="Whitestar Capital"
                     className="relative z-10 w-full h-full object-contain drop-shadow-[0_0_40px_rgba(212,175,55,0.8)]"
                   />

@@ -194,7 +194,7 @@ export default function About() {
                 {/* Main Image */}
                 <div className="relative overflow-hidden rounded-sm">
                   <img 
-                    src="/images/about-building.jpg" 
+                    src="images/about-building.jpg" 
                     alt="Modern Architecture"
                     className="w-full h-[400px] lg:h-[500px] object-cover"
                   />
